@@ -25,7 +25,7 @@ window.FF = {
     { platform: "youtube",   url: "https://www.youtube.com/@filmfractures" },
     { platform: "tiktok",    url: "https://www.tiktok.com/@filmfracture" },
     { platform: "instagram", url: "https://www.instagram.com/filmfractures" },
-    { platform: "facebook",  url: "https://www.facebook.com/filmfractures" },
+    { platform: "facebook",  url: "https://www.facebook.com/profile.php?id=61578663930679" },
   ],
 
   /* ---------- THE SHELF (your Amazon picks) ----------

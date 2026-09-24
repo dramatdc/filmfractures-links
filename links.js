@@ -41,11 +41,11 @@ window.FF = {
   shelf: {
     items: [
       {
-        title: "Avatar",
-        format: "Blu-ray",
-        cover: "assets/covers/avatar.jpg",
-        pitch: "Pandora has never looked this good on a home screen. A must-own for any collection.",
-        url: "https://example.com/amazon-affiliate-link",
+        title: "Everything Everywhere All at Once",
+        format: "4K Ultra HD + Blu-ray",
+        cover: "assets/covers/everything-everywhere.jpg",
+        pitch: "Seven Oscars, one googly eye, and infinite universes. A wild, heartfelt must-own in 4K.",
+        url: "https://amzn.to/4hpUqUg",
       },
     ],
   },

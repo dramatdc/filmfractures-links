@@ -169,7 +169,8 @@ a { color: inherit; text-decoration: none; }
 
 /* ---------- footer ---------- */
 .foot { margin-top: 40px; text-align: center; }
-.disclosure { max-width: 42ch; margin: 0 auto; font-size: 12px; color: var(--text-dim); }
+.thanks { max-width: 34ch; margin: 0 auto; font-size: 15px; font-weight: 500; line-height: 1.45; color: var(--text); text-wrap: balance; }
+.disclosure { margin: 10px auto 0; font-size: 10.5px; color: rgba(255, 255, 255, 0.45); }
 .brand { margin: 16px 0 0; font-size: 13px; font-weight: 700; letter-spacing: -0.01em; }
 
 /* ---------- toast ---------- */

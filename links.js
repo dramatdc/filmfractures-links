@@ -50,7 +50,10 @@ window.FF = {
     ],
   },
 
-  /* ---------- FOOTER ----------
-     Amazon requires this exact sentence on any page with your links. */
+  /* ---------- FOOTER ---------- */
+  // your message at the bottom of the page
+  thanks: "🍿 Grabbing your movies through my links helps support the channel, and it costs you nothing extra. Thank you!",
+
+  // tiny fine print. Amazon requires this exact sentence, so keep it.
   disclosure: "As an Amazon Associate I earn from qualifying purchases.",
 };

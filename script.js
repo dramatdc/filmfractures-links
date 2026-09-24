@@ -121,6 +121,7 @@
     </li>`).join("");
 
   /* ---------- footer ---------- */
+  $("thanks").textContent = C.thanks || "";
   $("disclosure").textContent = C.disclosure || "";
 
   /* ---------- share this page ---------- */

@@ -15,7 +15,7 @@ window.FF = {
     bio: [
       "📀 Building my physical media collection, one movie at a time",
       "🕵️ Movie facts, theories & hidden details",
-      "🛒 Where I buy + the best 4K/steelbook deals ⬇️",
+      "🛒 Where I buy the best movies + deals ⬇️",
     ],
   },
 

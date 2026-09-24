@@ -43,7 +43,11 @@
   document.title = P.name || document.title;
   $("name").textContent = P.name || "";
   const bio = Array.isArray(P.bio) ? P.bio : [P.bio || ""];
-  $("bio").innerHTML = bio.map((line) => `<p>${esc(line)}</p>`).join("");
+  // split each line into emoji + text so the emojis stack in a neat column
+  $("bio").innerHTML = bio.map((line) => {
+    const [, emoji, text] = String(line).match(/^(\S+)\s+(.*)$/u) || [, "", line];
+    return `<p><span class="e">${esc(emoji)}</span><span>${esc(text)}</span></p>`;
+  }).join("");
   if (P.avatar) {
     $("avatar").src = P.avatar;
     $("bg").style.backgroundImage = `url("${P.avatar}")`;

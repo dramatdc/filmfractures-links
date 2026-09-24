@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Film Fractures</title>
+  <meta name="description" content="Building my physical media collection, one movie at a time. Where I buy + the best 4K/steelbook deals." />
+  <meta name="theme-color" content="#140d1e" />
+
+  <meta property="og:title" content="Film Fractures" />
+  <meta property="og:description" content="Where I buy + the best 4K/steelbook deals." />
+  <meta property="og:image" content="assets/avatar.jpg" />
+  <meta name="twitter:card" content="summary" />
+
+  <link rel="icon" href="assets/avatar.jpg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="bg" id="bg" aria-hidden="true"></div>
+
+  <button class="share-top" id="share" type="button" aria-label="Share this page">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12v7a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-7"/><path d="M12 3v12"/><path d="M7 8l5-5 5 5"/></svg>
+  </button>
+
+  <main class="page">
+    <header class="profile">
+      <img class="avatar" id="avatar" alt="Film Fractures logo" />
+      <h1 class="name" id="name"></h1>
+      <div class="bio" id="bio"></div>
+      <nav class="socials" id="socials" aria-label="Social media"></nav>
+    </header>
+
+    <section class="shelf" id="shelf" aria-label="Movies I recommend">
+      <h2 class="heading">Newest pick</h2>
+      <div id="featured"></div>
+
+      <h2 class="heading" id="prev-heading">Previous picks</h2>
+      <ul class="picks" id="picks"></ul>
+    </section>
+
+    <footer class="foot">
+      <p class="disclosure" id="disclosure"></p>
+      <p class="brand">Film Fractures</p>
+    </footer>
+  </main>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="links.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

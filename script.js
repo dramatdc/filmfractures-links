@@ -48,6 +48,26 @@
     const [, emoji, text] = String(line).match(/^(\S+)\s+(.*)$/u) || [, "", line];
     return `<p><span class="e">${esc(emoji)}</span><span>${esc(text)}</span></p>`;
   }).join("");
+  // optically center the bio: the block is centered on its longest line, so
+  // nudge it right by the empty space the shorter lines leave behind
+  const centerBio = () => {
+    const el = $("bio");
+    el.style.transform = "";
+    const box = el.getBoundingClientRect();
+    const rights = [...el.children].map((p) => {
+      const r = document.createRange();
+      r.selectNodeContents(p.lastElementChild);
+      return Math.max(...[...r.getClientRects()].map((x) => x.right));
+    });
+    if (!rights.length || !isFinite(rights[0])) return;
+    const maxR = Math.max(...rights);
+    const avgR = rights.reduce((a, b) => a + b, 0) / rights.length;
+    const shift = Math.min((box.right - maxR) / 2 + (maxR - avgR) / 2, 12);
+    el.style.transform = `translateX(${shift.toFixed(1)}px)`;
+  };
+  centerBio();
+  (document.fonts ? document.fonts.ready : Promise.resolve()).then(centerBio);
+  addEventListener("resize", centerBio);
   if (P.avatar) {
     $("avatar").src = P.avatar;
     $("bg").style.backgroundImage = `url("${P.avatar}")`;

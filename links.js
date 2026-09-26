@@ -41,6 +41,13 @@ window.FF = {
   shelf: {
     items: [
       {
+        title: "Obsession",
+        format: "4K Ultra HD + Blu-ray · Collector's Edition",
+        cover: "assets/covers/obsession.jpg",
+        pitch: "One wish, one broken willow, and a crush that turns into a curse. Be careful what you wish for.",
+        url: "https://amzn.to/4iQPaM2",
+      },
+      {
         title: "Everything Everywhere All at Once",
         format: "4K Ultra HD + Blu-ray",
         cover: "assets/covers/everything-everywhere.jpg",

@@ -41,6 +41,13 @@ window.FF = {
   shelf: {
     items: [
       {
+        title: "Borderlands",
+        format: "4K Ultra HD + Blu-ray + Digital",
+        cover: "assets/covers/borderlands.jpg",
+        pitch: "Cate Blanchett, Jack Black as Claptrap, and pure Pandora chaos. The Claptrap case art alone earns a spot on the shelf.",
+        url: "https://amzn.to/3VWZxnM",
+      },
+      {
         title: "Obsession",
         format: "4K Ultra HD + Blu-ray · Collector's Edition",
         cover: "assets/covers/obsession.jpg",

@@ -41,6 +41,13 @@ window.FF = {
   shelf: {
     items: [
       {
+        title: "The Batman",
+        format: "4K Ultra HD + Blu-ray",
+        cover: "assets/covers/the-batman.jpg",
+        pitch: "Rain-soaked Gotham, Pattinson's detective Batman, and a Riddler who actually scares you. This one was made for 4K.",
+        url: "https://amzn.to/4yxURmZ",
+      },
+      {
         title: "Borderlands",
         format: "4K Ultra HD + Blu-ray + Digital",
         cover: "assets/covers/borderlands.jpg",

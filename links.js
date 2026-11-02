@@ -41,6 +41,13 @@ window.FF = {
   shelf: {
     items: [
       {
+        title: "Dune",
+        format: "4K Ultra HD + Blu-ray",
+        cover: "assets/covers/dune.jpg",
+        pitch: "Arrakis in 4K with Hans Zimmer's score shaking the room. This is the disc you show off your setup with.",
+        url: "https://link.amazon/B051ylfa1",
+      },
+      {
         title: "The Batman",
         format: "4K Ultra HD + Blu-ray",
         cover: "assets/covers/the-batman.jpg",

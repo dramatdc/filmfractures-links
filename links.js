@@ -41,6 +41,13 @@ window.FF = {
   shelf: {
     items: [
       {
+        title: "Dune: Part Two",
+        format: "4K Ultra HD",
+        cover: "assets/covers/dune-part-two.jpg",
+        pitch: "Paul rides the sandworm, Austin Butler's Feyd-Rautha steals every scene, and the black-and-white arena fight is unreal in 4K.",
+        url: "https://www.amazon.com/dp/B0CW3DTWNG?&linkCode=ll2&tag=filmfractures-20&linkId=a9213f6557cfc45ff0d79dd6d7d58f6b&language=en_US&gaOptInStatus=true&ref_=as_li_ss_tl",
+      },
+      {
         title: "Dune",
         format: "4K Ultra HD + Blu-ray",
         cover: "assets/covers/dune.jpg",

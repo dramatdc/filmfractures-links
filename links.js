@@ -41,6 +41,13 @@ window.FF = {
   shelf: {
     items: [
       {
+        title: "Imaginary",
+        format: "4K Ultra HD + Blu-ray + Digital · Steelbook",
+        cover: "assets/covers/imaginary.jpg",
+        pitch: "Blumhouse's creepy teddy bear Chauncey, glowing on a neon Steelbook. Your childhood imaginary friend never looked this good.",
+        url: "https://www.amazon.com/dp/B0D8N1HP7F?&linkCode=ll2&tag=filmfractures-20&linkId=de29e6e3cd4d0220b05b0801e5851db3&language=en_US&gaOptInStatus=true&ref_=as_li_ss_tl",
+      },
+      {
         title: "Dune: Part Two",
         format: "4K Ultra HD",
         cover: "assets/covers/dune-part-two.jpg",

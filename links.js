@@ -41,6 +41,13 @@ window.FF = {
   shelf: {
     items: [
       {
+        title: "The Crow",
+        format: "4K Ultra HD + Blu-ray + Digital",
+        cover: "assets/covers/the-crow.jpg",
+        pitch: "Bill Skarsgård takes on Eric Draven in a dark, rain-soaked revenge story. That moody gray case art looks killer on a shelf.",
+        url: "https://www.amazon.com/dp/B0DD53CSK4?&linkCode=ll2&tag=filmfractures-20&linkId=23453cd04df4a7df170c074b78f3dd63&language=en_US&gaOptInStatus=true&ref_=as_li_ss_tl",
+      },
+      {
         title: "Imaginary",
         format: "4K Ultra HD + Blu-ray + Digital · Steelbook",
         cover: "assets/covers/imaginary.jpg",

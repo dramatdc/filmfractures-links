@@ -41,6 +41,13 @@ window.FF = {
   shelf: {
     items: [
       {
+        title: "Weapons",
+        format: "4K Ultra HD + Digital",
+        cover: "assets/covers/weapons.jpg",
+        pitch: "Seventeen kids run into the night at 2:17 AM and vanish. Zach Cregger's creepiest mystery yet, and a must-own in 4K.",
+        url: "https://www.amazon.com/Weapons-4K-Ultra-Digital-UHD/dp/B0FK8ZGMVQ?crid=3AVZPF1GU6RY9&dib=eyJ2IjoiMSJ9.ukig3u5jQLdi4NjgxZXCF6kbjAuJGY7LTr6zRvpe9r9RJ0TXGLbE7wcOuiuxjrCreJ7m-hhvGlY4lPv8qlxvgg8jza2bGalkNo-e_TVlrnewGlsFkIbAuTzTEuwpQEK-7_uxdR1izkNZELdIq9n0Vaiy51AgN5GBMYWJ1RmerPW6hrLzlfAwFj5TisIqk8cWc_-C6u03d8sNoHgsWm1usf9WTXkViP7joLQtypY7kjE.B2BTicredvUAkesRTsd74FSAc6mLRlJ_hoWaTNcUvps&dib_tag=se&keywords=weapons+4k&qid=1795568646&sprefix=weapons+4%2Caps%2C217&sr=8-1&linkCode=ll2&tag=filmfractures-20&linkId=9ccbec3c0c93ea48c5c2417f42bdaf3c&language=en_US&gaOptInStatus=true&ref_=as_li_ss_tl",
+      },
+      {
         title: "The Crow",
         format: "4K Ultra HD + Blu-ray + Digital",
         cover: "assets/covers/the-crow.jpg",
